@@ -69,7 +69,7 @@ Tree.prototype.draw = function(svgContainer) {
   svgContainer.append("path")
               .attr("d", lineFunction([this.trunk.base, point1, point2, this.trunk.tip]))
               .attr("stroke-width", 10 - this.level)
-              .attr("stroke", "black")
+              .attr("stroke", "#DDD")
               .attr("fill", "none");
 
   _.each(this.branches, function(subTree) { subTree.draw(svgContainer); })

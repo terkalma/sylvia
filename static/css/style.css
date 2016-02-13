@@ -1,0 +1,18 @@
+body {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+svg, body {
+  background-color: #D1D1D1;
+}
+
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.post-container {
+  padding: 5%;
+}
