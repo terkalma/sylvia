@@ -12,7 +12,7 @@ function Tree(base, angle, options) {
   this.branches = [];
   this.generateSubtrees();
 
-  console.log(this.toString());
+  // console.log(this.toString());
 }
 
 Tree.prototype.setOptions = function(options) {
